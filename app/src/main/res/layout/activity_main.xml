@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button_open_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Modal Bottom Sheet"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/text_view_button_clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button X clicked"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/go_second_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="go to second activity"/>
+
+</LinearLayout>
